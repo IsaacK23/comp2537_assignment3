@@ -16,9 +16,9 @@ let timer = 0, interval, timeLimit = 0;
 let allowFlip = true;
 
 const difficultyMap = {
-  easy: { pairs: 3, time: 60 },
-  medium: { pairs: 6, time: 90 },
-  hard: { pairs: 9, time: 120 }
+  easy: { pairs: 3, time: 20 },
+  medium: { pairs: 6, time: 60 },
+  hard: { pairs: 9, time: 90 }
 };
 
 startBtn.onclick = startGame;
